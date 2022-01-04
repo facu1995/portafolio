@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+li {
+    list-style: none;
+}
+
+body{
+    background: var(--blue);
+    color: --textA;
+}
+
+a{
+    color:var(--ac);
+}
+
+
+.body-padding{
+    margin:50px 5%;
+}
+
+.flex-aling-sa{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+h1{
+    font-size:3rem;
+}

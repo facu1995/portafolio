@@ -1,0 +1,7 @@
+@import './base/base.css';
+@import './base/settings.css';
+@import './components/nav_principal.css';
+@import './components/home.css';
+@import './components/proyect.css';
+@import './components/cardproyect.css';
+@import './components/contact.css';

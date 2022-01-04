@@ -1,0 +1,11 @@
+.proyect{
+    
+}
+.proyect__container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+}

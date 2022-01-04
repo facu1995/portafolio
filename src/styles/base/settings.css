@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+:root{
+    /*COLORS*/    
+    --gbg: rgb(197, 197, 197); 
+    --dgbg: #1d1b19;
+    --dc: #987750;
+    --gc: #888;
+    --ac: #ddd;  
+    --hc: #b3aca7;
+    --grc: rgb(54, 182, 37);  
+    --bodyBG : #307fc9;
+    --textA:rgb(3, 3, 3);
+    --white:rgb(255, 255, 255);
+    --bspinner:#221b15;
+}

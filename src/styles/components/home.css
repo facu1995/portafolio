@@ -1,0 +1,35 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+    height:80vh;
+}
+
+.home__foto{
+    background-image: url(../../asset/img/perfil.jpg);
+    background-repeat: no-repeat;
+    height:500px;
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+
+.home__info{
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+}
+.home__info h1{
+    margin: 20px 0;
+    font-size:4.2rem;
+}
+
+.home__description{
+    font-size:1.8rem;
+    letter-spacing:0.4px;
+    word-spacing: 0.4em;
+    line-height : 40px;
+}
