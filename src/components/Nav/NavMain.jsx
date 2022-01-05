@@ -20,7 +20,7 @@ function NavMain() {
                 <li className="nav_principal__li"><a href="/" className="nav_principal__a">Acerca de mi</a></li>
                {/*  <li className="nav_principal__li"><Link href="/about" className="nav_principal__a">Acerca de mi</Link></li> */}
                 <li className="nav_principal__li"><a href="/#proyect" className="nav_principal__a">Proyectos</a></li>
-                <li className="nav_principal__li"><a href="/contact" className="nav_principal__a">Conctacto</a></li>
+                <li className="nav_principal__li"><a href="/#contact" className="nav_principal__a">Conctacto</a></li>
             </ul>
         </nav>
     )

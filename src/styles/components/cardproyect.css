@@ -1,8 +1,13 @@
 .cardProyect{
-    color: var(--bodyBG);
-    border:1px solid var(--bodyBG);
+    /* background:var(--hc);
+    color: var(--bodyBG); */
+    background: var(--bodyBG);
+    /* background:#3f484b; */
+    color: #fff;
     height: 500px;
     width: 450px;
+    border: 1px solid black;
+    border-radius:4px;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -22,11 +27,12 @@
     margin:10px 0
 }
 .cardProyect__detalle__description{
-    margin: 0 0 10px 0;
+    margin: 0 0 25px 0;
 }
 .cardProyect__a{
     background: var(--dgbg);
-    padding: 8px;
+    font-weight: 600;
+    padding: 14px;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -36,8 +42,10 @@
     color: var(--bodyBG);
 }
 .cardProyect:hover{
-    background: var(--bodyBG);
-    color: #fff;
+    /* background:var(--bgHover);
+    color: #fff;  */
+  /*   color: var(--bodyBG); */
+    background: var(--bgHover);
     background-repeat: no-repeat;
     background-size: 100%;
     /* transition: all 0.7s ease-out; */
@@ -62,4 +70,55 @@
 }
 .proyect3:hover{
     background-image: url(../../asset/img/proyecto3hover.PNG);
+}
+
+.proyect4{
+    background-image: url(../../asset/img/proyecto4.PNG);
+}
+.proyect4:hover{
+    background-image: url(../../asset/img/proyecto4hover.PNG);
+}
+
+.proyect5{
+    background-image: url(../../asset/img/proyecto5.PNG);
+}
+.proyect5:hover{
+    background-image: url(../../asset/img/proyecto5hover.PNG);
+}
+.proyect6{
+    background-image: url(../../asset/img/proyecto6.PNG);
+}
+.proyect6:hover{
+    background-image: url(../../asset/img/proyecto6hover.PNG);
+}
+
+.proyect7{
+    background-image: url(../../asset/img/proyecto7.PNG);
+}
+.proyect7:hover{
+    background-image: url(../../asset/img/proyecto7hover.PNG);
+}
+.proyect8{
+    background-image: url(../../asset/img/proyecto8.PNG);
+}
+.proyect8:hover{
+    background-image: url(../../asset/img/proyecto8hover.PNG);
+}
+.proyect9{
+    background-image: url(../../asset/img/proyecto9.PNG);
+}
+.proyect9:hover{
+    background-image: url(../../asset/img/proyecto9hover.PNG);
+}
+.proyect10{
+    background-image: url(../../asset/img/proyecto10.PNG);
+}
+.proyect10:hover{
+    background-image: url(../../asset/img/proyecto10hover.PNG);
+}
+.proyect11{
+    background-image: url(../../asset/img/proyecto11.PNG);
+}
+.proyect11:hover{
+    background-image: url(../../asset/img/proyecto11hover.PNG);
 }

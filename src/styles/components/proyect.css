@@ -1,6 +1,9 @@
 .proyect{
     
 }
+.proyect h1{
+    padding: 15px 0 0 0;
+}
 .proyect__container{
     margin: 50px;
     display: flex;

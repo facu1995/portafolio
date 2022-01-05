@@ -12,8 +12,8 @@ li {
 }
 
 body{
-    background: var(--blue);
-    color: --textA;
+    background: var(--fondo);
+    color: var(--textA);
 }
 
 a{
