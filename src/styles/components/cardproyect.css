@@ -1,4 +1,4 @@
-.cardProyect{
+.cardProyect {
     /* background:var(--hc);
     color: var(--bodyBG); */
     background: var(--bodyBG);
@@ -7,7 +7,7 @@
     height: 500px;
     width: 450px;
     border: 1px solid black;
-    border-radius:4px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -15,21 +15,23 @@
     transition: all 0.7s ease-out;
 }
 
-.cardProyect__detalle{
+.cardProyect__detalle {
     position: relative;
     top: 310px;
     padding: 10px 20px;
-    height:200px;
+    height: 200px;
 }
 
-.cardProyect__detalle__titulo{
-    font-size:26px;
-    margin:10px 0
+.cardProyect__detalle__titulo {
+    font-size: 26px;
+    margin: 10px 0
 }
-.cardProyect__detalle__description{
+
+.cardProyect__detalle__description {
     margin: 0 0 25px 0;
 }
-.cardProyect__a{
+
+.cardProyect__a {
     background: var(--dgbg);
     font-weight: 600;
     padding: 14px;
@@ -37,14 +39,16 @@
     text-decoration: none;
     border-radius: 4px;
 }
-.cardProyect__a:hover{
+
+.cardProyect__a:hover {
     background: #fff;
     color: var(--bodyBG);
 }
-.cardProyect:hover{
+
+.cardProyect:hover {
     /* background:var(--bgHover);
     color: #fff;  */
-  /*   color: var(--bodyBG); */
+    /*   color: var(--bodyBG); */
     background: var(--bgHover);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -53,72 +57,105 @@
     transform: scale(1.03);
 }
 
-.proyect1{
+.proyect1 {
     background-image: url(../../asset/img/proyecto1.png);
 }
-.proyect1:hover{
+
+.proyect1:hover {
     background-image: url(../../asset/img/proyecto1hover.PNG);
 }
-.proyect2{
+
+.proyect2 {
     background-image: url(../../asset/img/proyecto2.PNG);
 }
-.proyect2:hover{
+
+.proyect2:hover {
     background-image: url(../../asset/img/proyecto2hover.PNG);
 }
-.proyect3{
+
+.proyect3 {
     background-image: url(../../asset/img/proyecto3.PNG);
 }
-.proyect3:hover{
+
+.proyect3:hover {
     background-image: url(../../asset/img/proyecto3hover.PNG);
 }
 
-.proyect4{
+.proyect4 {
     background-image: url(../../asset/img/proyecto4.PNG);
 }
-.proyect4:hover{
+
+.proyect4:hover {
     background-image: url(../../asset/img/proyecto4hover.PNG);
 }
 
-.proyect5{
+.proyect5 {
     background-image: url(../../asset/img/proyecto5.PNG);
 }
-.proyect5:hover{
+
+.proyect5:hover {
     background-image: url(../../asset/img/proyecto5hover.PNG);
 }
-.proyect6{
+
+.proyect6 {
     background-image: url(../../asset/img/proyecto6.PNG);
 }
-.proyect6:hover{
+
+.proyect6:hover {
     background-image: url(../../asset/img/proyecto6hover.PNG);
 }
 
-.proyect7{
+.proyect7 {
     background-image: url(../../asset/img/proyecto7.PNG);
 }
-.proyect7:hover{
+
+.proyect7:hover {
     background-image: url(../../asset/img/proyecto7hover.PNG);
 }
-.proyect8{
+
+.proyect8 {
     background-image: url(../../asset/img/proyecto8.PNG);
 }
-.proyect8:hover{
+
+.proyect8:hover {
     background-image: url(../../asset/img/proyecto8hover.PNG);
 }
-.proyect9{
+
+.proyect9 {
     background-image: url(../../asset/img/proyecto9.PNG);
 }
-.proyect9:hover{
+
+.proyect9:hover {
     background-image: url(../../asset/img/proyecto9hover.PNG);
 }
-.proyect10{
+
+.proyect10 {
     background-image: url(../../asset/img/proyecto10.PNG);
 }
-.proyect10:hover{
+
+.proyect10:hover {
     background-image: url(../../asset/img/proyecto10hover.PNG);
 }
-.proyect11{
+
+.proyect11 {
     background-image: url(../../asset/img/proyecto11.PNG);
 }
-.proyect11:hover{
+
+.proyect11:hover {
     background-image: url(../../asset/img/proyecto11hover.PNG);
+}
+
+
+
+@media screen and (max-width:390px) {
+    .cardProyect {
+        height: 410px;
+    }
+
+    .cardProyect__detalle {
+        top: 227px;
+        padding: 10px 20px;
+        height: 200px;
+    }
+
 }

@@ -1,10 +1,10 @@
-.proyect{
-    
-}
-.proyect h1{
+.proyect {}
+
+.proyect h1 {
     padding: 15px 0 0 0;
 }
-.proyect__container{
+
+.proyect__container {
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -12,3 +12,13 @@
     flex-wrap: wrap;
     gap: 40px 40px;
 }
+
+@media screen and (max-width:800px) {
+    .proyect {
+        padding: 70px 0;
+    }
+    .proyect__container {
+        margin: 10px;
+    }
+}
+

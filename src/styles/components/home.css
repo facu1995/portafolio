@@ -1,15 +1,15 @@
-.home{
+.home {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap:20px;
-    height:80vh;
+    gap: 20px;
+    height: 80vh;
 }
 
-.home__foto{
+.home__foto {
     background-image: url(../../asset/img/perfil.jpg);
     background-repeat: no-repeat;
-    height:500px;
+    height: 500px;
     width: 500px;
     border-radius: 50%;
     overflow: hidden;
@@ -17,19 +17,41 @@
 }
 
 
-.home__info{
+.home__info {
     width: 50%;
     min-width: 300px;
     max-width: 500px;
 }
-.home__info h1{
+
+.home__info h1 {
     margin: 20px 0;
-    font-size:4.2rem;
+    font-size: 4.2rem;
 }
 
-.home__description{
-    font-size:1.8rem;
-    letter-spacing:0.4px;
+.home__description {
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
     word-spacing: 0.4em;
-    line-height : 40px;
+    line-height: 40px;
+}
+
+@media screen and (max-width:800px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 920px;
+    }
+
+    .home__foto {
+        margin:10px 0;
+        background-size: cover;
+        width: 100%;
+        min-height:250px
+    }
+
+    .home__info {
+        width: 100%;
+    }
 }

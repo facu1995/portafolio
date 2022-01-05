@@ -34,3 +34,10 @@ a{
 h1{
     font-size:3rem;
 }
+
+@media screen and (max-width:800px){
+    .body-padding{
+        margin:50px 10px;
+    }
+    
+}
