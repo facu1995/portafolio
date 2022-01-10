@@ -145,6 +145,18 @@
     background-image: url(../../asset/img/proyecto11hover.PNG);
 }
 
+.cardProyect__grupo {
+    background: var(--dgbg);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cardProyect__detalle__cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
 
 
 @media screen and (max-width:390px) {
@@ -157,5 +169,8 @@
         padding: 10px 20px;
         height: 200px;
     }
-
+   /*  .cardProyect__grupo {
+        top: 25px;
+        left: 254px;
+    } */
 }
